@@ -1,74 +1,4 @@
 {
-    "RedBear": {
-        "Type": "Cone AOE + Slow + Poison + Wither + Nuke",
-        "Image": "rbxassetid://102559099412468",
-        "Rarity": "Nightmare",
-        "PlacePrice": 1100,
-        "Offset": 0,
-        "Max": 5,
-        "Passive": {"Name": "Remnant of the Past", "Description": "Attacks apply Slow Poison and Wither."},
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 50,
-                "Damage": 1560000,
-                "Cooldown": 1,
-                "Slow": 0.9,
-                "SlowTime": 3
-                   "Wither": 1.8,
-                "ShinyWither": 1.9,
-                "WitherTime": 3
-                  "Poison": 300000,
-                "PoisonLength": 3
-            },
-            {
-                "Price": 13000,
-                "Range": 80,
-                "Damage": 1900000,
-                "Cooldown": 0.85,
-                "Slow": 0.9,
-                "SlowTime": 3
-             "Wither": 1.8,
-                "ShinyWither": 1.9,
-                "WitherTime": 3
-             "Poison": 400000,
-                "PoisonLength": 3
-
-            },
-            {
-                "Price": 15000,
-                "Range": 100,
-                "Damage": 2000000,
-                "Cooldown": 0.7,
-                "Slow": 0.9,
-                "SlowTime": 3
-             "Wither": 1.8,
-                "ShinyWither": 1.9,
-                "WitherTime": 3
-             "Poison": 500000,
-                "PoisonLength": 3
-
-            },
-            {
-                "Price": 18000,
-                "Range": 300,
-                "Damage": 2500000,
-                "Cooldown": 0.25,
-                "Slow": 0.9,
-                "SlowTime": 3
-             "Wither": 1.8,
-                "ShinyWither": 1.9,
-                "WitherTime": 3
-             "Poison": 600000,
-                "PoisonLength": 3
-                  }
-        ]
-    },
     "Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://16620053009",
@@ -2770,14 +2700,13 @@
             }
         ]
     },
-    "Circuit Breaker Freddy": {
+    "RedBear": {
         "Type": "Cone AOE",
-        "Image": "rbxassetid://18886487842",
+        "Image": "rbxassetid://102559099412468",
         "Rarity": "Nightmare",
-        "PlacePrice": 6000,
+        "PlacePrice": 1100,
         "Offset": 0,
-        "Max": 3,
-        "Passive": {"Name": "Virus", "Description": "Enemies hit by Circuit Breaker's attack take 7.5% more damage for 3 seconds (15% if shiny)"},
+        "Max": 5,
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -2786,39 +2715,27 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 25,
-                "Damage": 2500,
+                "Range": 50,
+                "Damage": 1560000,
                 "Cooldown": 1,
-                "Wither": 1.075,
-                "ShinyWither": 1.15,
-                "WitherTime": 1
             },
             {
-                "Price": 8000,
-                "Range": 28,
-                "Damage": 3200,
-                "Cooldown": 1,
-                "Wither": 1.075,
-                "ShinyWither": 1.15,
-                "WitherTime": 1
+                "Price": 13000,
+                "Range": 80,
+                "Damage": 1900000,
+                "Cooldown": 0.85,
             },
             {
-                "Price": 10000,
-                "Range": 31,
-                "Damage": 4000,
-                "Cooldown": 1,
-                "Wither": 1.075,
-                "ShinyWither": 1.15,
-                "WitherTime": 1
+                "Price": 15000,
+                "Range": 100,
+                "Damage": 2000000,
+                "Cooldown": 0.7,
             },
             {
-                "Price": 12000,
-                "Range": 35,
-                "Damage": 5000,
-                "Cooldown": 1,
-                "Wither": 1.075,
-                "ShinyWither": 1.15,
-                "WitherTime": 1
+                "Price": 18000,
+                "Range": 300,
+                "Damage": 2500000,
+                "Cooldown": 0.25,
             }
         ]
     },
